@@ -1,0 +1,245 @@
+/* Custom Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    padding: 15px 10px;
+    transition: background-color 0.5s ease;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-brand {
+    color: rgb(158, 252, 188) !important;
+}
+
+.orange {
+    color: #ff8709;
+    background: none;
+}
+
+.demo {
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+    height: 60vh;
+    /* Adjust the height to fit within the home section */
+}
+
+.home-section,
+.about-section,
+.projects-section,
+.contact-section {
+    padding: 50px 0;
+    flex: 1;
+    /* Ensures these sections take up the remaining space */
+}
+
+.home-section {
+    background: url('alexander-grey-jYbKxinWQGk-unsplash.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    height: 60vh;
+    /* Reduce height to make the hero section smaller */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-section,
+.projects-section,
+.contact-section {
+    background-color: #c8f6bb;
+}
+
+.about-section .container,
+.projects-section .container,
+.contact-section .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-section .card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: linear-gradient(145deg, #e2e2e2, #ffffff);
+    border: none;
+}
+
+.about-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about-section .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.about-section .card-text {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.about-section .btn-primary {
+    background-color: #ffd1dc;
+    border: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.about-section .btn-secondary {
+    background-color: #c8f6bb;
+    border: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.about-section .btn-primary:hover {
+    background-color: #ffb3c1;
+}
+
+.about-section .btn-secondary:hover {
+    background-color: #a5e4a1;
+}
+
+.projects-section .card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #fff;
+    border: none;
+}
+
+.projects-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projects-section .card img {
+    border-radius: 15px 15px 0 0;
+}
+
+.projects-section .card-body {
+    padding: 20px;
+}
+
+.projects-section .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.projects-section .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.projects-section .btn-primary {
+    background-color: #ffd1dc;
+    border: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.projects-section .btn-primary:hover {
+    background-color: #ffb3c1;
+}
+
+.contact-section .form-group label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.contact-section .form-group input,
+.contact-section .form-group textarea {
+    font-size: 1rem;
+}
+
+.contact-section .btn {
+    margin-top: 10px;
+    background-color: #6c757d;
+    /* Match the new button color */
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.contact-section .btn:hover {
+    background-color: #5a6268;
+    /* Darker shade for hover */
+}
+
+.demo {
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.orange {
+    color: #ff8709;
+    background: none;
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    color: #6c757d;
+}
+
+.footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
